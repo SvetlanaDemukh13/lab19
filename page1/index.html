@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>JScript</title>
+</head>
+
+<body>
+
+<script>
+var mas = ['Вы уверены, Дмитрий Витальевич, что хотите переходить дальше?', 'Подумайте лучше. Мало ли, что там...', 1];
+var first = mas[0];
+alert (first);
+
+var second = mas[1];
+alert (second);
+
+mas[2] = 'Я вас предупредила...';
+alert(mas[2]);
+
+document.write("Число элементов в массиве: " + mas.length);
+
+document.write("</br>");
+document.write("</br>");
+
+var re = /woman/gi;
+var str = 'Every man in the world! Every woman on earth!';
+var newstr = str.replace(re, 'person');
+console.log(newstr);
+
+var re = /man/gi;
+
+var newwstr = newstr.replace(re, 'person');
+console.log(newwstr);
+
+document.write(newwstr);
+
+</script>
+
+<img src="vebka.jpg" width="500px" height="500px" align="right">
+
+
+</body>
+</html>
